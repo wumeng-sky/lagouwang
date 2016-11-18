@@ -1,0 +1,1095 @@
+body{
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+body,div,ul,ol,li,dl,dt,dd,table,h1,h2,h3,h4,h5,h6,form,menu,p,hr,a,span,i,em,b,strong,input,select,textarea,sub,sup,s,u,del{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+input,select,textarea,option{
+    font-family: "Microsoft Yahei";
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    zoom: 1;
+}
+.clear:after{
+    display: block;
+    content: '';
+    clear: both;
+    height:0;
+    visibility: hidden; 
+}
+a:hover{
+    color: #00b38a;
+}
+.subNav{
+    width:100%;
+    height:30px;
+    background-color: #333;
+}
+.subNavL{
+    float: left;
+    margin-left: 19px;
+    line-height: 30px;
+}
+.subNavL span{
+    padding:0 12px;
+    color: #5d5d5d;
+}
+.subNavL .app{
+    color: #08d7a2;
+}
+.subNavL .app img{
+    padding-right: 7px;
+    vertical-align: -2px;
+}
+.subNavL a{
+    color: #c4c3c3;
+}
+.subNavL a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.subR{
+    float: right;
+    margin-right: 20px;
+}
+/*subnav ended*/
+.content1024{
+    margin:0 auto;
+    width:1024px;
+}
+.content1200{
+    margin:0 auto;
+    width:1200px;
+}
+.nav{
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    height:54px;
+    background-color: #fafafa;
+}
+.nav h1{
+    float: left;
+    padding:10px 17px 0 4px;
+}
+.city{
+    float: left;
+    margin:21px 50px 0 0;
+    font-size: 18px;
+    color: #333;
+}
+.city a{
+    margin-left: 9px;
+    font-size: 12px;
+    color: #999;
+}
+.nav ul{
+    float: left;
+}
+.nav ul li{
+    float: left;
+    margin-right:36px;
+    height:53px;
+    line-height: 53px;
+    font-size: 18px;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid #000;
+}
+.nav ul li a{
+    display: block;
+    padding:0 5px;
+    height: 53px;
+    color: #999;
+}
+.nav ul li a:hover,.nav ul .on a{
+    border-bottom: 2px solid #00b38a;
+    color: #333333;
+}
+.conT{
+  margin-top: 35px;
+}
+.conT .conL{
+    float: left;
+    width: 230px;
+}
+.conT .conL a:hover{
+    color: #00b38a;
+    text-decoration:underline;
+}
+.conList{
+    background-color: #fafafa;
+}
+.classify{
+    position: relative;
+    border:2px solid transparent;
+    padding:9px 18px 8px 20px;
+}
+.cL h2{
+    position: relative;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.cL h2 span,.cL h2 i{
+    position: absolute;
+    right:0;
+    top:11px;
+    border: 7px solid #7c7f80;
+    border-color: transparent transparent transparent #7c7f80;
+}
+.cL h2 i{
+    right: 1px;
+    border-color: transparent transparent transparent #fafafa;
+}
+ 
+.cL a{
+    float: left;
+    padding-right: 19px;
+    line-height: 27px;
+    color: #555;
+}
+.cR{
+    display: none;
+    position: absolute;
+    top:-50%;
+    left: 228px;
+    border:2px solid #c9cbce;
+    padding:15px 30px 5px;
+    width: 540px;
+    background-color: #fff;
+}
+.cR.special{
+    display: none;
+    position: absolute;
+    /*top:0;*/
+    top:-2px;
+    left: 228px;
+    border:2px solid #c9cbce;
+    padding:15px 30px 5px;
+    width: 540px;
+    background-color: #fff;
+}
+.cR dl{
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.cR dl{
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.cR dl dt{
+    float: left;
+    padding-right: 28px;
+    width: 70px;
+    text-align: right;
+}
+.cR dl dt a{
+    color: #333;
+    text-decoration: underline;
+}
+.cR dl dd{
+    float: left;
+    width: 442px;
+}
+.cR dl dd a{
+    position: relative;
+    float: left;
+    padding:0 13px 0 10px;
+    color: #777;
+}
+.cR dl dd a:after{
+    display: block;
+    content: '';
+    position: absolute;
+    top:10px;
+    right:0;
+    width: 1px;
+    height: 12px;
+    background-color:#c6c6c6;
+}
+.cR dl dd .noBg:after{
+    display: none;
+}
+.classify:hover{
+    border: 2px solid #c9cbce;
+    border-right: none;
+    background-color: #fff;
+}
+.classify:hover .cR{
+    display: block;
+    z-index: 105;
+}
+.classify:hover .cL h2 i{
+    border-left-color: #fff;
+}
+.classify:hover .line{
+    position: absolute;
+    z-index: 106;
+    top:0;
+    right: -2px;
+    width: 3px;
+    height: 100%;
+    background-color:#fff;
+}
+.conLink{
+    margin-top: 12px;
+    padding-left: 40px;
+    border-bottom: 2px solid #00b38a;
+    height: 46px;
+    background-color: #fafafa;
+    line-height: 46px;
+}
+.conLink a{
+    font-size: 18px;
+    color: #555;
+}
+.conL .conLink a:hover{
+    text-decoration: none;
+}
+.conLink a span{
+    float: right;
+    margin:14px 20px 0 0;
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/arr_btn_c46d8e5.png");
+    background-position: 0 -19px;
+}
+.conR{
+    float: right;
+    width: 744px;
+}
+.search{
+    height: 83px;
+}
+.search form{
+    margin-bottom: 10px;
+}
+.search form input[type=text]{
+    float: left;
+    border:2px solid #00b38a;
+    border-right: none;
+    width:578px;
+    height:33px;
+    outline: none;
+    padding-left: 5px;
+}
+.search form input[type=button]{
+    float: left;
+    border:2px solid #00b38a;
+    width:150px;
+    height: 37px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 18px;
+    outline:none;
+}
+.search form input[type=button]:hover{
+    background-color: #00a57f;
+}
+.search a{
+    padding-right: 16px;
+    color: #00b38a;
+}
+.search a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    height: 160px;
+}
+.bannerlg{
+    position: relative;
+    float: left;
+    width: 612px;
+    height: 160px;
+    overflow: hidden;
+}
+.bannerlg .bannerInner{
+    position: absolute;
+    left: 0;
+    top:0;
+    float: left;
+    width: 612px;
+    height: 640px;
+}
+.bannerlg .bannerInner li{
+    width: 612px;
+    height: 160px;
+}
+.bannerlg .bannerInner li img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.banner ol{
+    position: relative;
+    float: right;
+    width: 121px;
+}
+.banner ol li{
+    position: relative;
+    margin-bottom: 5px;
+    border:4px solid #d3d3d3;
+    width: 113px;
+    height: 42px;
+}
+.banner ol li i{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 114px;
+    height: 44px;
+    background: url("../images/bmask.png");
+}
+/*.banner ol li:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 117px;
+    height: 50px;
+    background: #000;
+    opacity:0.3;
+}*/
+.banner ol li.selected i{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.banner ol em{
+    width: 127px;
+    height: 50px;
+    background: url("../images/slbt.png") 0 0 no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -6px;
+ }
+/*.banner ol li.selected:before{
+    display: block;
+    content: '';
+    position: absolute;
+    top:15px;
+    left:-16px;
+    border:6px solid #77d3be;
+    border-color: transparent #77d3be transparent transparent;
+}
+.banner ol li.selected{
+    border-color: #77d3be;
+}*/
+
+.imgList{
+    margin:18px 0 26px -8px;
+    width: 750px;
+}
+.imgList li{
+    float: left;
+    position: relative;
+    margin-left: 8px;
+    border: 2px solid #e2e2e2;
+    width: 113px;
+    height: 113px;
+    /*z-index: -1;*/
+}
+.imgList li .box{
+    display: block;
+    width: 113px;
+    height: 113px;
+    /*overflow: hidden;*/
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+.imgList li .box img{
+    width: 113px;
+    height: 113px;
+}
+.imgList li .mask{
+    /*display: none;*/
+    position: absolute;
+    top:0;
+    left: -113px;
+    padding:6px;
+    width: 101px;
+    height: 101px;
+    background: rgba(0,179,138,.8);
+    z-index: 1;
+}
+.imgList li dl dt{
+    border-bottom: 5px solid rgba(255,255,255,0.5);
+    height: 38px;
+    line-height: 38px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+.imgList li dl dd{
+    padding-top: 7px;
+    line-height: 16px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/*.imgList li:hover dl{
+    display: block;
+}*/
+.recruitList .title{
+    height: 39px;
+    background-color: #f6f6f6;
+}
+.recruitList .title h2{
+    float: left;
+    border-top: 3px solid transparent;
+    width: 112px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    color: #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+.recruitList .title .on{
+    border-top-color:#00b38a;
+    color: #333;
+    background-color: #fff;
+}
+.recruitList ul{
+    display: none;
+}
+.recruitList ul.cur{
+    display: block;
+}
+.recruitList li{
+    border-bottom: 1px solid #e1e1e1;
+    height: 123px;
+}
+.recruitList li .top{
+    padding:20px 0 5px 15px;
+    height: 58px;
+}
+.recruitList li .top .topL{
+    float: left;
+    padding-right: 10px;
+    width:410px;
+}
+.recruitList li .top h2{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.recruitList li .top h2 a{
+    padding-right: 10px;
+    color: #00b38a;
+}
+.recruitList li .top h2 span{
+    font-size: 14px;
+    color: #999;
+}
+.recruitList li .top p{
+    line-height: 24px;
+}
+.recruitList li .top p span{
+    padding-right: 20px;
+    color: #fa6041;
+}
+.recruitList li .top .topR{
+    float: left;
+}
+.recruitList li .bottom{
+    padding-left: 24px;
+    height: 39px;
+    line-height: 39px;
+    background-color: #fafafa;
+}
+.recruitList li .bottom .bomL{
+    float: left;
+    width:401px;
+    color: #333;
+}
+.recruitList li .bottom .bomR{
+    float: left;
+}
+.recruitList li .bottom .bomR span{
+    margin-right: 14px;
+    border:1px solid #dcdcdc;
+    padding:0 4px;
+    line-height: 22px;
+}
+.recruitList .more{
+    float: right;
+    margin:25px 0 40px 0;
+    padding:0 13px 0 15px;
+    width: 92px;
+    height: 32px;
+    line-height: 32px;background-color: #00b38a;
+    font-size: 16px;
+}
+.recruitList .more a{
+    color: #fff;
+}
+.recruitList .more span{
+    float: right;
+    margin-top: 7px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/arr_btn_c46d8e5.png");
+    background-position: -1px 0;
+}
+.link{
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    line-height: 30px;
+}
+.link dt,.link dd{
+    float: left;
+    width: 70px;
+    font-size: 14px;
+    color: #333;
+}
+.link dd{
+    width: 674px;
+    font-size: 12px;
+}
+.link dd a{
+    border-right: 1px solid #b299b2;
+    padding:0 10px;
+    color: #555;
+}
+.link dd .last{
+    border: none;
+    color: #555;
+    text-decoration: underline;
+}
+.footer{
+    margin-top: 100px;
+    border-top: 1px solid #ccc;
+}
+.footer .footerT{
+    height: 36px;
+    line-height: 36px;
+}
+
+.footer .footerT .left{
+    float: left;
+}
+.footer .footerT .left img{
+    padding-top: 9px;
+    width: 198px;
+    height: 19px;
+
+}
+.footer .footerT .right{
+    float:left;
+    padding-left: 37px;
+}
+.footer .footerT .right a{
+    position: relative;
+    padding-right: 15px;
+    color: #555;
+}
+.footer .footerT .right a span{
+    display: block;
+    border-radius: 3px;
+    width:30px;
+    height: 16px;
+    background-color: #fd470c;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer .footerT .right a img{
+    display: none;
+    position: absolute;
+    left:0;
+    top:-265px;
+    border:3px solid #0d9572;
+    width: 256px;
+    height: 256px;
+}
+.footer .footerT .right a:hover img{
+    display: block;
+}
+.footer p{
+    margin-bottom: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #d5d5d5;
+    font-size: 12px;
+}
+.footer p a{
+    color: #d5d5d5;
+}
+.login{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 64px;
+    background: url("../images/footer_bg.png");
+    z-index: 107;
+}
+.conLogin{
+    position: relative;
+}
+.conLogin em{
+    position: absolute;
+    top:-54px;
+    left:-109px;
+    width: 95px;
+    height: 54px;
+}
+.conLogin span{
+    position: absolute;
+    left:-110px;
+    top: 10px;
+    width: 138px;
+    height: 45px;
+}
+.conLogin p{
+  position: absolute;
+}
+.conLogin .gs{
+    left:296px;
+    top:23px;
+    width: 220px;
+}
+.conLogin p i,.conLogin p b,.conLogin p sub{
+    display: inline-block;
+    width:20px;
+    height:30px;
+    background: url("../images/footbar_number.png") no-repeat;
+}
+.conLogin p b{
+    width: 9px;
+    background: url("../images/footbar_comma.png") no-repeat 0 18px;
+}
+.conLogin p sub{
+    width: 30px;
+    background-image: url("../images/footbar_text.png");
+    background-position: 0 10px;
+}
+.conLogin .zw{
+    left:520px;
+    width: 235px;
+
+}
+.conLogin .zw sub{
+    background-position: left 0 bottom 5px;
+}
+.conLogin .dl{
+    position: absolute;
+    right: 92px;
+    width: 142px;
+    height: 64px;
+    background: url("../images/dl_bg.png");
+    line-height: 64px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+.conLogin .dl:hover{
+    background: url("../images/dl_bg_hover.png");
+}
+.conLogin .redzc{
+    position: absolute;
+    left:933px;
+    width: 1024px;
+    height: 64px;
+    background: url("../images/footbar_btn_red1.png");
+}
+.conLogin .redzc strong{
+    display: block;
+    padding-top: 20px;
+    width:212px;
+    height: 44px;
+    text-align: center;
+}
+.conLogin .redzc:hover strong{
+    background: url("../images/red_hover.png");
+}
+.logo{
+    margin-right: 183px;
+}
+.subList{
+    position: relative;
+}
+.banList{
+    position: relative;
+}
+.banList>span{
+    position: absolute;
+    top:143px;
+    width: 46px;
+    height:240px;
+    background: url("../images/btn.png") no-repeat;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.banList .btnL{
+    left:-36px;
+}
+.banList .btnR{
+    right:-36px;
+    background-position: -46px 0;
+}
+.banList>span:hover{
+    opacity: 0.8;
+}
+.banList>h3{
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.banList .hidden{
+    overflow: hidden;
+    padding:7px 86px 0 45px;
+    width: 1069px;
+    height: 293px;
+}
+.banList .hidden ul{
+    width: 4069px;
+}
+.banList .hidden ul li{
+    float: left;
+    width: 214px;
+}
+.banList .hidden ul li .conTop{
+    position: relative;
+    margin:0 4px 0 50px;
+    padding:9px;
+    width: 142px;
+    height: 202px;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
+}
+.banList .hidden ul li .conTop .img img{
+    width: 142px;
+    height: 142px;
+}
+.banList .hidden ul li .conTop .img p{
+    padding:14px 8px 0;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+}
+.banList .hidden .imgHover{
+    display: none;
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    border:1px solid #02fa58;
+    padding: 9px;
+    width: 160px;
+    height: 220px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+.banList .hidden .imgHover a{
+    display: inline-block;
+    margin-left: 17px;
+    width: 128px;
+    height: 40px;
+    background: #00b38a;
+    background: rgba(0,179,139,0.8);
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.banList .hidden .conTop:hover .imgHover{
+    display: block;
+}
+.banList .conBom{
+    margin-top: 30px;
+    height: 20px;
+    line-height: 20px;
+}
+.banList .conBom p{
+    float: left;
+    font-size: 0;
+}
+.banList .conBom p i{
+    display: inline-block;
+    margin-right:14px;
+    width: 2px;
+    height: 2px;
+    background: #40f6bd;
+    vertical-align: -7px;
+}
+.banList .conBom .time{
+    padding-left: 12px;
+    width: 68px;
+    font-size: 14px;
+    color: #fff;
+}
+.banList .conBom p .btn{
+    margin-right: 10px;
+    border:6px solid;
+    border-color: transparent transparent transparent #40f6bd;
+    width: 0;
+    height: 0;
+    background: none;
+    vertical-align: -5px;
+}
+.list{
+    margin-top: 35px;
+}
+.listLeft{
+    float: left;
+    width: 960px;
+}
+
+.listLeft .title{
+    margin-bottom: 13px;
+    border:1px solid #8e8e8e;
+    padding:12px 0 12px;
+    background: #fafafa;
+}
+.cityList{
+    margin-bottom: 9px;
+    padding:0 13px 0 24px;
+}
+.cityList b{
+    float: left;
+    color: #555;
+}
+.cityList a{
+    float: left;
+    margin-left: 5px;
+    padding:0 8px;
+    color: #555;
+    line-height: 22px;
+}
+.cityList a:hover,.cityList .on{
+    background: #00b38a;
+    color: #fff;
+}
+.cityList .more{
+    position: relative;
+    float: right;
+    width: 51px;
+}
+.cityList .more i{
+    margin-left: 6px;
+    border-color: #00b38a transparent transparent transparent;
+    font-size: 0;
+}
+.cityList .more:hover{
+    background: none;
+    color: #555;
+}
+.cityList .more p{
+    display: none;
+    position: absolute;
+    right: -13px;
+    top:0;
+    z-index: 2;
+    border-bottom: 1px solid #8e8e8e;
+    border-top: 1px solid #8e8e8e;
+    padding:4px 42px 4px 24px;
+    width: 892px;
+    height: 87px;
+    background: #fff;
+}
+.cityList .more p a{
+    margin-left: -8px;
+    margin-right: 5px;
+}
+.cityList .more:hover p{
+    display: block;
+}
+.listLeft .pad{
+    padding:10px 18px 10px 24px;
+}
+.listLeft .pad .cityList{
+    margin-bottom: 0;
+    padding:0;
+}
+.cityList .check{
+    float: right;
+}
+
+.cityList .check em{
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    vertical-align: middle;
+    background: url("../images/main_z_5248caf.png") no-repeat;
+}
+.cityList .check em:active{
+    background-position: -18px 0;
+}
+.itemList{
+    padding-top: 27px;
+}
+.itemList ul{
+    margin-left: -16px;
+    width: 976px;
+}
+.itemList li{
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    border:1px solid #e8e8e8;
+    width: 470px;
+    height: 190px;
+}
+.itemList li .top{
+    padding:28px 32px;
+    height: 180px;
+}
+.itemList .top dl dt{
+    float: left;
+    border:1px solid #e8e8e8;
+    width: 130px;
+    height: 130px;
+    background: url("../images/bg_logo.jpg") no-repeat;
+}
+.itemList .top dl dt img{
+    width: 130px;
+    height:130px;
+}
+
+.itemList .top dl dd{
+    float: left;
+    padding-left: 25px;
+}
+.itemList .top dl dd a{
+    display: block;
+    color: #555;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 18px;
+}
+.itemList .top dl dd a i{
+    padding-right: 10px;
+    color: #00b38a;
+    font-style: normal;
+}
+.itemList .top dl dd .tit{
+    padding-bottom: 5px;
+    line-height: 44px;font-size: 22px;
+    font-weight: 500;
+}
+.itemList .top dl dd a:hover{
+    color: #00b38a;
+}
+.itemList .top p{
+    padding-top:18px;
+}
+.itemList .bom{
+    height: 54px;
+    line-height: 54px;
+    background: #fafafa;
+}
+.itemList .bom span{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.itemList .bom .bom1{
+    width: 40%;
+}
+.itemList .bom span b{
+    display: inline-block;
+    margin-right: 12px;
+    width: 15px;
+    height: 18px;
+    background: url("../images/icon_b778959.png") no-repeat;
+    vertical-align: middle;
+}
+.itemList span.bom2 b{
+    background-position: 0 -18px;
+}
+.itemList span.bom3 b{
+    background-position: 0 -36px;
+}
+.listRight{
+    float: right;
+    width: 210px;height: 900px;
+    background: red;
+}
+.page{
+    margin-top: 55px;
+    font-size: 0;
+    text-align: center;
+}
+.page span{
+    display: inline-block;
+    margin:0 5px;
+    border:1px solid #e8e8e8;
+    padding:0 10px;
+    height: 27px;
+    line-height: 27px;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
+.page .dian{
+    border: none;
+    padding:0;
+}
+.page .bg{
+    color: #c0c0c0;
+}
+.page .cur,.page span:hover{
+    background: #00b38a;
+    color: #fff;
+}
+.backtop{
+    display: none;
+    background: url("../images/backtop.png") left top no-repeat;
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    bottom: 116px;
+    margin-left: 548px;
+    cursor: pointer;
+}
+.backtop:hover{
+    background-position: right top!important;
+}
+.feedback{
+    position:fixed;
+    right: 94px;
+    bottom: 74px;
+    width: 30px;
+    height: 30px;
+    background: url("../images/feedback.png") left center no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+.feedback:hover{
+    background-position: 0 -31px;
+}
+
+
+.nav .content1024 ul li i.new {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    display: block;
+    width: 28px;
+    height: 16px;
+    background-image: url(../images/icon-new-tip_dk.png);
+    text-indent: -999em;
+}
